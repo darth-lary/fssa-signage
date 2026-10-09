@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>FSSA — Ocuparea sălilor</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #1e293b;
+    --cell: #1e293b;
+    --line: #334155;
+    --busy: #164e63;
+    --busy-now: #0e7490;
+    --gold: #fbbf24;
+    --cyan: #38bdf8;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --dim: #64748b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: var(--bg); color: var(--text);
+    font-family: "DejaVu Sans", "Segoe UI", Arial, sans-serif; overflow: hidden; }
+  /* Pagina e proiectată pe 1920×1080 și scalată pe ecran. */
+  #stage { width: 1920px; height: 1080px; transform-origin: 0 0; position: absolute; top: 0; left: 0;
+    display: flex; flex-direction: column; }
+  header { background: var(--panel); border-bottom: 2px solid var(--cyan); text-align: center; padding: 14px 0 10px; }
+  header h1 { color: var(--gold); font-size: 34px; letter-spacing: .5px; }
+  header .week { color: var(--cyan); font-size: 22px; font-weight: 600; margin-top: 4px; }
+  .room-title { text-align: center; color: var(--gold); font-size: 32px; font-weight: 700; padding: 10px 0 8px; }
+  .room-title .count { color: var(--dim); font-size: 18px; font-weight: 400; margin-left: 14px; }
+  table { border-collapse: collapse; margin: 0 30px 0 0; table-layout: fixed; width: 1890px; flex: 1; }
+  th, td { border: 1px solid var(--line); }
+  thead th { background: var(--panel); height: 56px; font-weight: 600; }
+  thead th .m { color: var(--cyan); font-size: 13px; display: block; }
+  thead th .h { color: #cbd5e1; font-size: 15px; display: block; margin-top: 3px; }
+  thead th.corner { background: var(--bg); border: none; width: 120px; }
+  tbody th { width: 120px; background: var(--cell); font-size: 20px; }
+  tbody td { background: var(--cell); vertical-align: top; padding: 6px 8px; position: relative; }
+  tbody td.empty::after { content: "—"; color: #475569; position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center; }
+  tbody td.busy { background: var(--busy); }
+  tbody tr.today th { color: var(--gold); }
+  tbody td.now { outline: 4px solid var(--gold); outline-offset: -4px; }
+  tbody td.busy.now { background: var(--busy-now); }
+  .act + .act { border-top: 1px dashed rgba(148,163,184,.35); margin-top: 5px; padding-top: 5px; }
+  .act .t { font-size: 15px; color: var(--text); line-height: 1.2; }
+  .act .k { color: var(--gold); font-size: 13px; margin-left: 6px; }
+  .act .p { font-size: 12px; color: #cbd5e1; margin-top: 2px; }
+  .act .g { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  footer { display: flex; justify-content: space-between; color: var(--dim); font-size: 13px; padding: 6px 30px 8px; }
+  .dots span { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #334155; margin-left: 5px; }
+  .dots span.on { background: var(--gold); }
+  #msg { position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+    color: var(--muted); font-size: 28px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <header><h1 id="fac">FACULTATEA DE SISTEME DE SECURITATE AERIANĂ — Brașov</h1><div class="week" id="week"></div></header>
+  <div class="room-title" id="room"></div>
+  <table id="grid"><thead></thead><tbody></tbody></table>
+  <footer><span id="upd"></span><span class="dots" id="dots"></span></footer>
+  <div id="msg"></div>
+</div>
+<script>
+(function () {
+  const qs = new URLSearchParams(location.search);
+  const SCREEN = qs.get("ecran") || "1";
+  const SECONDS = Math.max(5, parseInt(qs.get("t") || "14", 10));
+  const REFRESH_MIN = 10;
+  let data = null, idx = 0, timer = null;
+
+  function fit() {
+    const s = Math.min(innerWidth / 1920, innerHeight / 1080);
+    const st = document.getElementById("stage");
+    st.style.transform = `scale(${s})`;
+    st.style.left = `${(innerWidth - 1920 * s) / 2}px`;
+    st.style.top = `${(innerHeight - 1080 * s) / 2}px`;
+  }
+  addEventListener("resize", fit); fit();
+
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const toMin = hhmm => { const [h, m] = hhmm.split(":").map(Number); return h * 60 + m; };
+
+  function nowPos() {
+    // ziua (0 = luni) și modulul curent, doar dacă azi e în săptămâna afișată
+    const now = new Date();
+    const start = new Date(data.week.start + "T00:00:00");
+    const day = Math.floor((now - start) / 86400000);
+    if (day < 0 || day >= data.days.length) return { day: -1, module: -1 };
+    const m = now.getHours() * 60 + now.getMinutes();
+    let module = -1;
+    data.slots.forEach((s, i) => { if (m >= toMin(s.start) && m < toMin(s.end)) module = i + 1; });
+    return { day, module };
+  }
+
+  function render() {
+    const fixedRoom = qs.get("sala");          // ?sala=E-31 afișează o singură sală (ex. ecran la ușa sălii)
+    const rooms = fixedRoom ? [fixedRoom] : (data.screens[SCREEN] || []);
+    if (!rooms.length) { showMsg(`Ecranul ${esc(SCREEN)} nu este configurat.`); return; }
+    const room = rooms[idx % rooms.length];
+    const acts = data.rooms[room] || [];
+    const pos = nowPos();
+    document.getElementById("week").textContent = data.week.label;
+    document.getElementById("room").innerHTML = `Sala ${esc(room)}<span class="count">${idx % rooms.length + 1} / ${rooms.length}</span>`;
+    const thead = document.querySelector("#grid thead");
+    thead.innerHTML = "<tr><th class='corner'></th>" + data.slots.map(s =>
+      `<th><span class="m">${esc(s.name)}</span><span class="h">${esc(s.start)}-${esc(s.end)}</span></th>`).join("") + "</tr>";
+    const tbody = document.querySelector("#grid tbody");
+    // sâmbăta apare doar dacă sala are activități în acea zi
+    const days = data.days.filter((_, d) => d < 5 || acts.some(a => a.day === d));
+    tbody.innerHTML = days.map((dname, d) => {
+      const cells = data.slots.map((s, i) => {
+        const here = acts.filter(a => a.day === d && a.module === i + 1);
+        const cls = [here.length ? "busy" : "empty", (d === pos.day && i + 1 === pos.module) ? "now" : ""].join(" ");
+        const inner = here.map(a => `<div class="act"><div class="t">${esc(a.title)}${a.kind ? `<span class="k">${esc(a.kind)}${esc(a.nr)}</span>` : ""}</div>` +
+          (a.teacher ? `<div class="p">${esc(a.teacher)}${a.time ? " · " + esc(a.time) : ""}</div>` : (a.time ? `<div class="p">${esc(a.time)}</div>` : "")) +
+          `<div class="g">${esc(a.group)}</div></div>`).join("");
+        return `<td class="${cls}">${inner}</td>`;
+      }).join("");
+      return `<tr class="${d === pos.day ? "today" : ""}"><th>${esc(dname)}</th>${cells}</tr>`;
+    }).join("");
+    document.getElementById("dots").innerHTML = rooms.map((_, i) => `<span class="${i === idx % rooms.length ? "on" : ""}"></span>`).join("");
+    const g = new Date(data.generated);
+    document.getElementById("upd").textContent = `Actualizat: ${g.toLocaleDateString("ro-RO")} ${g.toLocaleTimeString("ro-RO", { hour: "2-digit", minute: "2-digit" })}`;
+    document.getElementById("msg").style.display = "none";
+  }
+
+  function showMsg(t) { const m = document.getElementById("msg"); m.textContent = t; m.style.display = "flex"; }
+
+  async function load() {
+    try {
+      const r = await fetch(`data/orar.json?v=${Date.now()}`, { cache: "no-store" });
+      if (!r.ok) throw new Error(r.status);
+      data = await r.json();
+      render();
+    } catch (e) {
+      if (!data) showMsg("Orarul nu poate fi încărcat momentan.");
+    }
+  }
+
+  load().then(() => {
+    timer = setInterval(() => { if (data) { idx++; render(); } }, SECONDS * 1000);
+    setInterval(load, REFRESH_MIN * 60 * 1000);
+  });
+})();
+</script>
+</body>
+</html>
