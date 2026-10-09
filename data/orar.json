@@ -1,17 +1,16 @@
 {
  "faculty": "FACULTATEA DE SISTEME DE SECURITATE AERIANĂ — Brașov",
  "week": {
-  "start": "2026-10-05",
-  "end": "2026-10-09",
-  "label": "Săptămâna 05 - 09 Octombrie 2026"
+  "start": "2026-10-12",
+  "end": "2026-10-16",
+  "label": "Săptămâna 12 - 16 Octombrie 2026"
  },
  "days": [
   "Luni",
   "Marți",
   "Miercuri",
   "Joi",
-  "Vineri",
-  "Sâmbătă"
+  "Vineri"
  ],
  "slots": [
   {
@@ -75,226 +74,225 @@
   "E-10": [
    {
     "day": 1,
-    "module": 3,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "A",
+    "module": 2,
+    "title": "Etică și deontologie militară",
+    "group": "AN II Ra.Art.A.A. Gr.121",
+    "kind": "S",
     "nr": "1",
-    "scope": "131 Gp.3"
+    "scope": "121"
    },
    {
-    "day": 2,
-    "module": 1,
-    "title": "Sisteme de artilerie antiaeriană",
+    "day": 1,
+    "module": 3,
+    "title": "Sisteme de rachete antiaeriene FA II",
     "group": "AN III Ra.Art.A.A./FA Gr.131",
     "kind": "C",
-    "nr": "1",
-    "scope": "131"
+    "nr": "2",
+    "scope": "131 Gp.1"
+   },
+   {
+    "day": 1,
+    "module": 4,
+    "title": "Sisteme de rachete antiaeriene FA II",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "C",
+    "nr": "2",
+    "scope": "131 Gp.2"
    },
    {
     "day": 3,
     "module": 1,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "title": "Sisteme aeriene autonome",
+    "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "A",
-    "nr": "1",
-    "scope": "131 Gp.1"
+    "nr": "3",
+    "scope": "121 Gp.2"
    },
    {
     "day": 3,
     "module": 2,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "title": "Sisteme aeriene autonome",
+    "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "A",
-    "nr": "1",
-    "scope": "131 Gp.2"
+    "nr": "3",
+    "scope": "121 Gp.1"
+   },
+   {
+    "day": 4,
+    "module": 2,
+    "title": "Sisteme aeriene autonome",
+    "group": "AN II Ra.Art.A.A. Gr.121",
+    "kind": "C",
+    "nr": "6",
+    "scope": "121"
+   },
+   {
+    "day": 4,
+    "module": 4,
+    "title": "Sisteme aeriene autonome",
+    "group": "AN II Ra.Art.A.A. Gr.121",
+    "kind": "S",
+    "nr": "2",
+    "scope": "121"
    }
   ],
   "E-13": [],
   "E-31": [
    {
     "day": 0,
-    "module": 1,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "C",
-    "nr": "1",
-    "scope": "121"
-   },
-   {
-    "day": 0,
     "module": 2,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
+    "title": "Bazele supravegherii spațiului aerian",
+    "group": "AN II Radiolocaţie Gr.321/1",
     "kind": "C",
-    "nr": "2",
-    "scope": "121"
+    "nr": "3",
+    "scope": "321"
    },
    {
     "day": 0,
     "module": 3,
-    "title": "Sisteme de artilerie antiaeriană",
+    "title": "Etică și deontologie militară",
     "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "C",
-    "nr": "3",
+    "nr": "1",
     "scope": "121"
    },
    {
     "day": 0,
     "module": 4,
     "title": "Teoria comunicării și relații publice",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "C",
-    "nr": "1",
-    "scope": "321"
-   },
-   {
-    "day": 1,
-    "module": 1,
-    "title": "Matematica aplicată",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "C",
-    "nr": "3",
-    "scope": "311"
-   },
-   {
-    "day": 1,
-    "module": 2,
-    "title": "Rețele de calculatoare",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "C",
-    "nr": "2",
-    "scope": "311"
-   },
-   {
-    "day": 1,
-    "module": 3,
-    "title": "Rețele de calculatoare",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "C",
-    "nr": "3",
-    "scope": "311"
-   },
-   {
-    "day": 1,
-    "module": 4,
-    "title": "Bazele electronicii",
-    "group": "AN I Av.Nav./avioane Gr.211/1",
-    "kind": "C",
-    "nr": "3",
-    "scope": "211"
-   },
-   {
-    "day": 2,
-    "module": 1,
-    "title": "Rețele de calculatoare",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "C",
-    "nr": "2",
-    "scope": "111"
-   },
-   {
-    "day": 2,
-    "module": 2,
-    "title": "Rețele de calculatoare",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "C",
-    "nr": "3",
-    "scope": "111"
-   },
-   {
-    "day": 2,
-    "module": 3,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "",
     "nr": "",
-    "scope": "131 Gp.1"
+    "scope": "121"
    },
    {
-    "day": 2,
-    "module": 4,
-    "title": "Bazele electronicii",
-    "group": "AN I Av.Nav./avioane Gr.211/1",
+    "day": 1,
+    "module": 1,
+    "title": "Rețele de calculatoare",
+    "group": "AN I REFA Gr.311/2",
     "kind": "C",
     "nr": "4",
-    "scope": "211"
+    "scope": "311"
+   },
+   {
+    "day": 1,
+    "module": 2,
+    "title": "Rețele de calculatoare",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "C",
+    "nr": "5",
+    "scope": "311"
+   },
+   {
+    "day": 1,
+    "module": 3,
+    "title": "Rețele de calculatoare",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "C",
+    "nr": "4",
+    "scope": "111"
+   },
+   {
+    "day": 1,
+    "module": 4,
+    "title": "Rețele de calculatoare",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "C",
+    "nr": "5",
+    "scope": "111"
+   },
+   {
+    "day": 2,
+    "module": 1,
+    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
+    "group": "AN III Radiolocaţie Gr.331/1",
+    "kind": "S",
+    "nr": "2",
+    "scope": "331/1"
+   },
+   {
+    "day": 2,
+    "module": 2,
+    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
+    "group": "331/2 + 331/3",
+    "kind": "S",
+    "nr": "2",
+    "scope": "331/2+331/3"
+   },
+   {
+    "day": 2,
+    "module": 3,
+    "title": "Elemente de artă militară",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "C",
+    "nr": "3",
+    "scope": "131"
+   },
+   {
+    "day": 2,
+    "module": 4,
+    "title": "Elemente de artă militară",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "C",
+    "nr": "4",
+    "scope": "131"
    },
    {
     "day": 3,
     "module": 1,
-    "title": "Studiu",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "",
-    "nr": "",
-    "scope": "321"
-   },
-   {
-    "day": 3,
-    "module": 1,
-    "title": "Studiu",
-    "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
-    "kind": "",
-    "nr": "",
-    "scope": "331/2"
+    "title": "Limba engleză",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "L",
+    "nr": "4",
+    "scope": "311/2 Gp.2"
    },
    {
     "day": 3,
     "module": 2,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
+    "title": "Psihologia liderului",
+    "group": "AN I Ra.Art.A.A. Gr.111",
     "kind": "S",
     "nr": "1",
-    "scope": "121"
+    "scope": "111 Gp.1"
    },
    {
     "day": 3,
     "module": 3,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "C",
-    "nr": "5",
-    "scope": "121"
-   },
-   {
-    "day": 3,
-    "module": 3,
-    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "title": "Teoria comunicării și relații publice",
+    "group": "AN II Radiolocaţie Gr.321/1",
     "kind": "S",
     "nr": "1",
-    "scope": "131 Gp.1"
+    "scope": "321/1"
    },
    {
     "day": 3,
     "module": 4,
     "title": "Studiu",
-    "group": "AN II Radiolocaţie Gr.321/1",
+    "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "",
     "nr": "",
-    "scope": "321"
+    "scope": "121"
    },
    {
     "day": 4,
     "module": 1,
-    "title": "Studiu",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "",
-    "nr": "",
-    "scope": "321"
-   }
-  ],
-  "E-37": [
-   {
-    "day": 1,
-    "module": 4,
-    "title": "Studiu",
+    "title": "Teoria comunicării și relații publice",
     "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "",
-    "nr": "",
-    "scope": "121 Gp.1"
+    "kind": "C",
+    "nr": "2",
+    "scope": "121"
+   },
+   {
+    "day": 4,
+    "module": 3,
+    "title": "Teoria comunicării și relații publice",
+    "group": "AN II Ra.Art.A.A. Gr.121",
+    "kind": "S",
+    "nr": "1",
+    "scope": "121"
    }
   ],
+  "E-37": [],
   "E-38": [
    {
     "day": 3,
@@ -302,7 +300,7 @@
     "title": "Bazele electronicii",
     "group": "AN I Av.Nav./avioane Gr.211/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "3",
     "scope": "211/1 Gp.2"
    },
    {
@@ -311,286 +309,214 @@
     "title": "Bazele electronicii",
     "group": "AN I Av.Nav./elicoptere Gr.211/2",
     "kind": "L",
-    "nr": "2",
+    "nr": "3",
     "scope": "211/2"
    },
    {
     "day": 3,
-    "module": 3,
+    "module": 4,
     "title": "Bazele electronicii",
     "group": "AN I Av.Nav./avioane Gr.211/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "3",
     "scope": "211/1 Gp.1"
    }
   ],
   "E-39": [
    {
-    "day": 1,
-    "module": 3,
-    "title": "Studiu",
-    "group": "AN III Rz.El. COM Gr.331/3",
-    "kind": "",
-    "nr": "",
-    "scope": "331/3"
+    "day": 3,
+    "module": 1,
+    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
+    "group": "AN II Radiolocaţie Gr.321/1",
+    "kind": "L",
+    "nr": "1",
+    "scope": "321/1 Gp.1"
    },
    {
-    "day": 1,
-    "module": 4,
-    "title": "Studiu",
+    "day": 3,
+    "module": 2,
+    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
     "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "",
-    "nr": "",
-    "scope": "321/1"
+    "kind": "L",
+    "nr": "1",
+    "scope": "321/1 Gp.2"
+   },
+   {
+    "day": 3,
+    "module": 3,
+    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
+    "group": "AN II Rz. Electr. Gr.321/2",
+    "kind": "L",
+    "nr": "1",
+    "scope": "321/2"
    }
   ],
   "E-40": [
    {
     "day": 0,
+    "module": 2,
+    "title": "Mijloace de RDLC. Război electronic în aviație",
+    "group": "AN IV Av.Nav./avioane Gr.241/1",
+    "kind": "C",
+    "nr": "1",
+    "scope": "241"
+   },
+   {
+    "day": 0,
+    "module": 4,
+    "title": "Tactică de specialitate pentru RDLC II",
+    "group": "AN III Radiolocaţie Gr.331/1",
+    "kind": "",
+    "nr": "",
+    "scope": "331/1"
+   },
+   {
+    "day": 2,
     "module": 1,
     "title": "Tactică de specialitate pentru RzEl in FA II",
     "group": "331/2 + 331/3",
     "kind": "C",
-    "nr": "1",
+    "nr": "2",
     "scope": "331/2+331/3"
    },
    {
-    "day": 0,
+    "day": 2,
+    "module": 3,
+    "title": "Tactică de specialitate pentru RzEl in FA II",
+    "group": "AN III Rz.El. COM Gr.331/3",
+    "kind": "S",
+    "nr": "2",
+    "scope": "331/3"
+   },
+   {
+    "day": 2,
     "module": 4,
     "title": "Construcția și funcționarea instalațiilor de RzEl III",
     "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
     "kind": "C",
-    "nr": "1",
+    "nr": "2",
     "scope": "331"
    },
    {
-    "day": 0,
-    "module": 5,
-    "title": "Bazele radiolocației. Război electronic în aviație",
-    "group": "431/1 + 231/2",
-    "kind": "S",
-    "nr": "1",
-    "scope": "431/1+231/2"
-   },
-   {
-    "day": 1,
+    "day": 3,
     "module": 1,
     "title": "Construcția și funcționarea instalațiilor de RzEl III",
     "group": "AN III Radiolocaţie Gr.331/1",
     "kind": "S",
-    "nr": "1",
+    "nr": "2",
     "scope": "331/1"
    },
    {
-    "day": 1,
-    "module": 2,
-    "title": "Circuite electrice și sisteme de conversie electromecanică",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "C",
-    "nr": "3",
-    "scope": "321"
-   },
-   {
-    "day": 1,
-    "module": 3,
-    "title": "Tactică de specialitate pentru RDLC II",
-    "group": "AN III Radiolocaţie Gr.331/1",
-    "kind": "C",
-    "nr": "1",
-    "scope": "331/1"
-   },
-   {
-    "day": 1,
+    "day": 3,
     "module": 4,
     "title": "Construcția și funcționarea instalațiilor de RzEl III",
     "group": "331/2 + 331/3",
     "kind": "S",
-    "nr": "1",
+    "nr": "2",
     "scope": "331/2+331/3"
-   },
-   {
-    "day": 2,
-    "module": 1,
-    "title": "Bazele radiolocației. Război electronic în aviație",
-    "group": "631 + 531",
-    "kind": "S",
-    "nr": "1",
-    "scope": "631+531"
-   },
-   {
-    "day": 2,
-    "module": 3,
-    "title": "Studiu",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "",
-    "nr": "",
-    "scope": "311/2"
-   },
-   {
-    "day": 2,
-    "module": 3,
-    "title": "Studiu",
-    "group": "AN I Radiolocaţie Gr.311/1",
-    "kind": "",
-    "nr": "",
-    "scope": "311/1 Gp.1"
-   },
-   {
-    "day": 3,
-    "module": 2,
-    "title": "Circuite electrice și sisteme de conversie electromecanică",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "C",
-    "nr": "4",
-    "scope": "321"
-   },
-   {
-    "day": 3,
-    "module": 3,
-    "title": "Circuite electrice și sisteme de conversie electromecanică",
-    "group": "AN II Rz. Electr. Gr.321/2",
-    "kind": "S",
-    "nr": "2",
-    "scope": "321/2"
-   },
-   {
-    "day": 3,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "",
-    "nr": "",
-    "scope": "311/2 Gp.1"
-   },
-   {
-    "day": 4,
-    "module": 2,
-    "title": "Circuite electrice și sisteme de conversie electromecanică",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "S",
-    "nr": "2",
-    "scope": "321/1"
-   },
-   {
-    "day": 4,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "",
-    "nr": "",
-    "scope": "121 Gp.1"
    }
   ],
   "E-44": [
    {
+    "day": 2,
+    "module": 2,
+    "title": "Informatică Aplicată",
+    "group": "AN I CTA Gr.411",
+    "kind": "L",
+    "nr": "3",
+    "scope": "411"
+   },
+   {
+    "day": 2,
+    "module": 3,
+    "title": "Informatică Aplicată",
+    "group": "AN I Info. Mil.UAV Gr.611",
+    "kind": "L",
+    "nr": "3",
+    "scope": "611 Gp.1"
+   },
+   {
+    "day": 2,
+    "module": 4,
+    "title": "Informatică Aplicată",
+    "group": "AN I Info. Mil.UAV Gr.611",
+    "kind": "L",
+    "nr": "3",
+    "scope": "611 Gp.2"
+   },
+   {
     "day": 3,
-    "module": 1,
+    "module": 2,
     "title": "Informatică Aplicată",
     "group": "AN I Av.Nav./avioane Gr.211/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "3",
     "scope": "211/1 Gp.1"
    },
    {
     "day": 3,
-    "module": 2,
+    "module": 3,
     "title": "Informatică Aplicată",
     "group": "AN I Av.Nav./avioane Gr.211/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "3",
     "scope": "211/1 Gp.2"
    },
    {
     "day": 3,
-    "module": 3,
+    "module": 4,
     "title": "Informatică Aplicată",
     "group": "AN I Av.Nav./elicoptere Gr.211/2",
     "kind": "L",
-    "nr": "2",
+    "nr": "3",
     "scope": "211/2"
-   },
-   {
-    "day": 4,
-    "module": 1,
-    "title": "Informatică Aplicată",
-    "group": "AN I CTA Gr.411",
-    "kind": "L",
-    "nr": "2",
-    "scope": "411"
-   },
-   {
-    "day": 4,
-    "module": 2,
-    "title": "Informatică Aplicată",
-    "group": "AN I Info. Mil.UAV Gr.611",
-    "kind": "L",
-    "nr": "2",
-    "scope": "611 Gp.1"
-   },
-   {
-    "day": 4,
-    "module": 3,
-    "title": "Informatică Aplicată",
-    "group": "AN I Info. Mil.UAV Gr.611",
-    "kind": "L",
-    "nr": "2",
-    "scope": "611 Gp.2"
    }
   ],
   "E-45": [
    {
     "day": 0,
-    "module": 1,
-    "title": "Limba engleză",
-    "group": "431/1 + 231/2 + 631 + 531",
-    "kind": "C",
-    "nr": "1",
-    "scope": "431/1+231/2+631+531"
-   },
-   {
-    "day": 0,
     "module": 2,
-    "title": "Elemente de aerodinamică și performanțe pentru aeronave",
-    "group": "431/1 + 231/2 + 631 + 531",
+    "title": "Sisteme de rachete antiaeriene FA II",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
     "kind": "C",
-    "nr": "1",
-    "scope": "431/1+231/2+631+531"
+    "nr": "2",
+    "scope": "131"
    },
    {
     "day": 0,
     "module": 3,
-    "title": "Leadership II",
-    "group": "431/1 + 231/2 + 631 + 531",
-    "kind": "C",
+    "title": "Mijloace de RDLC. Război electronic în aviație",
+    "group": "AN IV Av.Nav./avioane Gr.241/1",
+    "kind": "S",
     "nr": "1",
-    "scope": "431/1+231/2+631+531"
+    "scope": "241"
+   },
+   {
+    "day": 0,
+    "module": 4,
+    "title": "Elemente de drept. Drept internațional umanitar",
+    "group": "AN IV Av.Nav./avioane Gr.241/1",
+    "kind": "",
+    "nr": "",
+    "scope": "241"
    },
    {
     "day": 1,
     "module": 1,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "",
-    "nr": "",
-    "scope": "131 Gp.1"
-   },
-   {
-    "day": 1,
-    "module": 1,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "",
-    "nr": "",
-    "scope": "131 Gp.3"
+    "title": "Informatică Aplicată",
+    "group": "AN I Av.Nav./avioane Gr.211/1",
+    "kind": "C",
+    "nr": "5",
+    "scope": "211"
    },
    {
     "day": 1,
     "module": 2,
-    "title": "Informatică Aplicată",
-    "group": "AN I Av.Nav./avioane Gr.211/1",
+    "title": "Psihologia liderului",
+    "group": "AN I Ra.Art.A.A. Gr.111",
     "kind": "C",
-    "nr": "3",
-    "scope": "211"
+    "nr": "1",
+    "scope": "111"
    },
    {
     "day": 1,
@@ -598,337 +524,203 @@
     "title": "Informatică Aplicată",
     "group": "411 + 611",
     "kind": "C",
-    "nr": "3",
+    "nr": "5",
     "scope": "411+611"
    },
    {
     "day": 1,
     "module": 4,
-    "title": "Bazele radiolocației. Război electronic în aviație",
-    "group": "431/1 + 231/2 + 631 + 531",
-    "kind": "C",
-    "nr": "1",
-    "scope": "431/1+231/2+631+531"
-   },
-   {
-    "day": 2,
-    "module": 1,
-    "title": "Informatică Aplicată",
-    "group": "AN I Av.Nav./avioane Gr.211/1",
-    "kind": "C",
-    "nr": "4",
-    "scope": "211"
-   },
-   {
-    "day": 2,
-    "module": 2,
-    "title": "Informatică Aplicată",
-    "group": "411 + 611",
-    "kind": "C",
-    "nr": "4",
-    "scope": "411+611"
-   },
-   {
-    "day": 2,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "",
-    "nr": "",
-    "scope": "311/2 Gp.2"
-   },
-   {
-    "day": 2,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN I Radiolocaţie Gr.311/1",
-    "kind": "",
-    "nr": "",
-    "scope": "311/1"
-   },
-   {
-    "day": 3,
-    "module": 1,
-    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
-    "group": "AN III Radiolocaţie Gr.331/1",
-    "kind": "S",
-    "nr": "1",
-    "scope": "331/1"
-   },
-   {
-    "day": 3,
-    "module": 2,
-    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
-    "group": "331/2 + 331/3",
-    "kind": "S",
-    "nr": "1",
-    "scope": "331/2+331/3"
-   },
-   {
-    "day": 4,
-    "module": 3,
     "title": "Teoria tragerilor antiaeriene (art)",
     "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "C",
-    "nr": "1",
+    "nr": "2",
     "scope": "121"
    },
    {
-    "day": 4,
-    "module": 5,
-    "title": "Managementul proiectelor/ programelor",
-    "group": "Master SSA an II",
-    "kind": "C",
-    "nr": "11",
-    "time": "15:30-17:00",
-    "scope": "SSA an II"
-   },
-   {
-    "day": 4,
-    "module": 6,
-    "title": "Managementul proiectelor/ programelor",
-    "group": "Master SSA an II",
-    "kind": "S",
-    "nr": "5",
-    "time": "17:10-18:40",
-    "scope": "SSA an II"
-   },
-   {
-    "day": 5,
+    "day": 2,
     "module": 1,
-    "title": "Managementul proiectelor/ programelor",
-    "group": "Master SSA an II",
+    "title": "Limba engleză",
+    "group": "AN I REFA Gr.311/2",
     "kind": "C",
-    "nr": "12",
-    "time": "08:00-09:30",
-    "scope": "SSA an II"
+    "nr": "2",
+    "scope": "311"
    },
    {
-    "day": 5,
+    "day": 2,
     "module": 2,
-    "title": "Managementul proiectelor/ programelor",
-    "group": "Master SSA an II",
-    "kind": "C",
-    "nr": "13",
-    "time": "09:40-11:10",
-    "scope": "SSA an II"
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111 Gp.1"
    },
    {
-    "day": 5,
+    "day": 2,
     "module": 3,
-    "title": "Managementul proiectelor/ programelor",
-    "group": "Master SSA an II",
-    "kind": "C",
-    "nr": "14",
-    "time": "11:20-12:50",
-    "scope": "SSA an II"
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111"
    },
    {
-    "day": 5,
+    "day": 2,
     "module": 4,
-    "title": "Managementul proiectelor/ programelor",
-    "group": "Master SSA an II",
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111"
+   },
+   {
+    "day": 3,
+    "module": 1,
+    "title": "Psihologia liderului",
+    "group": "AN I Ra.Art.A.A. Gr.111",
     "kind": "S",
-    "nr": "6",
-    "time": "13:00-14:30",
-    "scope": "SSA an II"
+    "nr": "1",
+    "scope": "111 Gp.1"
+   },
+   {
+    "day": 3,
+    "module": 2,
+    "title": "Război Cibernetic",
+    "group": "ANUL II Av.Nav./avioane Gr.221",
+    "kind": "C",
+    "nr": "1",
+    "scope": "221"
+   },
+   {
+    "day": 3,
+    "module": 3,
+    "title": "Război Cibernetic",
+    "group": "ANUL II Av.Nav./avioane Gr.221",
+    "kind": "C",
+    "nr": "2",
+    "scope": "221"
+   },
+   {
+    "day": 3,
+    "module": 4,
+    "title": "Psihologia liderului",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "S",
+    "nr": "2",
+    "scope": "111 Gp.1"
+   },
+   {
+    "day": 4,
+    "module": 1,
+    "title": "Război Cibernetic",
+    "group": "ANUL II Av.Nav./avioane Gr.221",
+    "kind": "S",
+    "nr": "1",
+    "scope": "221 Gp.1"
+   },
+   {
+    "day": 4,
+    "module": 2,
+    "title": "Război Cibernetic",
+    "group": "221 Gp.3 + 221",
+    "kind": "S",
+    "nr": "1",
+    "scope": "221 Gp.3+221"
+   },
+   {
+    "day": 4,
+    "module": 3,
+    "title": "Război Cibernetic",
+    "group": "ANUL II Av.Nav./avioane Gr.221",
+    "kind": "C",
+    "nr": "3",
+    "scope": "221"
+   },
+   {
+    "day": 4,
+    "module": 4,
+    "title": "Război Cibernetic",
+    "group": "ANUL II Av.Nav./avioane Gr.221",
+    "kind": "C",
+    "nr": "4",
+    "scope": "221"
    }
   ],
   "E-46": [
    {
     "day": 0,
     "module": 2,
-    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "C",
-    "nr": "2",
-    "scope": "321"
-   },
-   {
-    "day": 0,
-    "module": 3,
-    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "C",
-    "nr": "3",
-    "scope": "321"
-   },
-   {
-    "day": 1,
-    "module": 1,
-    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "S",
-    "nr": "1",
-    "scope": "321"
-   },
-   {
-    "day": 1,
-    "module": 3,
-    "title": "Elemente de artă militară",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "S",
-    "nr": "1",
-    "scope": "131 Gp.1"
-   },
-   {
-    "day": 1,
-    "module": 4,
-    "title": "Elemente de artă militară",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "S",
-    "nr": "1",
-    "scope": "131 Gp.2"
-   },
-   {
-    "day": 2,
-    "module": 3,
-    "title": "Studiu",
-    "group": "331/1 + 331/2",
-    "kind": "",
-    "nr": "",
-    "scope": "331/1+331/2"
-   },
-   {
-    "day": 3,
-    "module": 1,
     "title": "Semnale și circuite electronice în sistemele de artilerie și rachete antiaeriene",
     "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "C",
-    "nr": "2",
+    "nr": "3",
     "scope": "121"
    },
    {
-    "day": 3,
-    "module": 2,
-    "title": "Studiu",
-    "group": "AN III Radiolocaţie Gr.331/1",
-    "kind": "",
-    "nr": "",
-    "scope": "331/1"
-   },
-   {
-    "day": 3,
+    "day": 0,
     "module": 3,
-    "title": "Studiu",
+    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
     "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "",
-    "nr": "",
-    "scope": "321/1"
+    "kind": "C",
+    "nr": "4",
+    "scope": "321"
    },
-   {
-    "day": 3,
-    "module": 4,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "A",
-    "nr": "2",
-    "scope": "121 Gp.1"
-   },
-   {
-    "day": 3,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "",
-    "nr": "",
-    "scope": "121 Gp.2"
-   },
-   {
-    "day": 4,
-    "module": 1,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "A",
-    "nr": "1",
-    "scope": "121 Gp.1"
-   },
-   {
-    "day": 4,
-    "module": 2,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "A",
-    "nr": "1",
-    "scope": "121 Gp.2"
-   },
-   {
-    "day": 4,
-    "module": 4,
-    "title": "Sisteme de artilerie antiaeriană",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "A",
-    "nr": "2",
-    "scope": "121 Gp.2"
-   }
-  ],
-  "E-53": [
    {
     "day": 0,
     "module": 4,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "title": "Semnale și circuite electronice pentru RDLC și RzEl",
+    "group": "AN II Radiolocaţie Gr.321/1",
     "kind": "",
     "nr": "",
-    "scope": "131 Gp.2"
+    "scope": "321"
    },
    {
     "day": 1,
     "module": 1,
-    "title": "Studiu",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "",
-    "nr": "",
-    "scope": "121 Gp.2"
-   },
-   {
-    "day": 1,
-    "module": 2,
-    "title": "Tactică de specialitate pentru RzEl in FA II",
-    "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
-    "kind": "S",
-    "nr": "1",
-    "scope": "331/2"
+    "title": "Bazele supravegherii spațiului aerian",
+    "group": "AN II Radiolocaţie Gr.321/1",
+    "kind": "C",
+    "nr": "4",
+    "scope": "321"
    },
    {
     "day": 1,
     "module": 3,
-    "title": "Bazele supravegherii spațiului aerian",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "S",
+    "title": "Antene și propagarea undelor electromagnetice",
+    "group": "121 + 231 Gp.1",
+    "kind": "C",
     "nr": "2",
-    "scope": "321/1"
+    "scope": "121+231 Gp.1"
    },
    {
     "day": 1,
     "module": 4,
-    "title": "Bazele supravegherii spațiului aerian",
-    "group": "AN II Rz. Electr. Gr.321/2",
-    "kind": "S",
+    "title": "Engleză de specialitate I",
+    "group": "AN II Radiolocaţie Gr.321/1",
+    "kind": "C",
     "nr": "2",
-    "scope": "321/2"
+    "scope": "321"
    },
    {
     "day": 2,
-    "module": 1,
-    "title": "Studiu",
-    "group": "AN III Rz.El. COM Gr.331/3",
-    "kind": "",
-    "nr": "",
-    "scope": "331/3"
-   },
-   {
-    "day": 3,
-    "module": 1,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "",
-    "nr": "",
-    "scope": "131 Gp.2"
-   },
-   {
-    "day": 3,
     "module": 2,
+    "title": "Studiu",
+    "group": "AN I Radiolocaţie Gr.311/1",
+    "kind": "",
+    "nr": "",
+    "scope": "311/1"
+   },
+   {
+    "day": 2,
+    "module": 3,
+    "title": "Studiu",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "",
+    "nr": "",
+    "scope": "311/2"
+   },
+   {
+    "day": 2,
+    "module": 4,
     "title": "Studiu",
     "group": "AN I REFA Gr.311/2",
     "kind": "",
@@ -937,6 +729,33 @@
    },
    {
     "day": 3,
+    "module": 1,
+    "title": "Studiu",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "",
+    "nr": "",
+    "scope": "311/2 Gp.1"
+   },
+   {
+    "day": 3,
+    "module": 1,
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111 Gp.1"
+   },
+   {
+    "day": 3,
+    "module": 2,
+    "title": "Studiu",
+    "group": "AN I Radiolocaţie Gr.311/1",
+    "kind": "",
+    "nr": "",
+    "scope": "311/1"
+   },
+   {
+    "day": 3,
     "module": 3,
     "title": "Studiu",
     "group": "AN I REFA Gr.311/2",
@@ -951,295 +770,474 @@
     "group": "AN I Radiolocaţie Gr.311/1",
     "kind": "",
     "nr": "",
-    "scope": "311/1 Gp.1"
+    "scope": "311/1"
    },
    {
     "day": 3,
-    "module": 3,
+    "module": 4,
     "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "group": "AN II Radiolocaţie Gr.321/1",
     "kind": "",
     "nr": "",
-    "scope": "131 Gp.2"
-   },
-   {
-    "day": 4,
-    "module": 2,
-    "title": "Studiu",
-    "group": "AN II Rz. Electr. Gr.321/2",
-    "kind": "",
-    "nr": "",
-    "scope": "321/2"
-   }
-  ],
-  "E-51": [],
-  "E-52": [
-   {
-    "day": 3,
-    "module": 2,
-    "title": "Matematica aplicată",
-    "group": "AN I Radiolocaţie Gr.311/1",
-    "kind": "L",
-    "nr": "2",
-    "scope": "311/1 Gp.2"
-   },
-   {
-    "day": 3,
-    "module": 3,
-    "title": "Matematica aplicată",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "L",
-    "nr": "2",
-    "scope": "311/2 Gp.1"
+    "scope": "321"
    },
    {
     "day": 4,
     "module": 1,
-    "title": "Matematica aplicată",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "L",
-    "nr": "2",
-    "scope": "311/2 Gp.2"
-   },
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111 Gp.1"
+   }
+  ],
+  "E-53": [],
+  "E-51": [],
+  "E-52": [
    {
-    "day": 4,
-    "module": 2,
+    "day": 2,
+    "module": 3,
     "title": "Matematica aplicată",
     "group": "AN I Radiolocaţie Gr.311/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "3",
+    "scope": "311/1 Gp.2"
+   },
+   {
+    "day": 2,
+    "module": 4,
+    "title": "Matematica aplicată",
+    "group": "AN I Radiolocaţie Gr.311/1",
+    "kind": "L",
+    "nr": "3",
     "scope": "311/1 Gp.1"
+   },
+   {
+    "day": 3,
+    "module": 2,
+    "title": "Matematica aplicată",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "L",
+    "nr": "3",
+    "scope": "311/2 Gp.2"
+   },
+   {
+    "day": 3,
+    "module": 3,
+    "title": "Matematica aplicată",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "L",
+    "nr": "3",
+    "scope": "311/2 Gp.1"
    }
   ],
   "E-70": [],
   "E-72": [
    {
     "day": 0,
-    "module": 1,
-    "title": "Bazele supravegherii spațiului aerian",
-    "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "C",
-    "nr": "2",
-    "scope": "321"
-   },
-   {
-    "day": 0,
     "module": 2,
     "title": "Limba engleză V",
     "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
     "kind": "C",
-    "nr": "1",
+    "nr": "2",
     "scope": "331"
    },
    {
     "day": 0,
     "module": 3,
-    "title": "Limba engleză V",
+    "title": "Studiu",
     "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "C",
-    "nr": "1",
-    "scope": "131"
+    "kind": "",
+    "nr": "",
+    "scope": "131 Gp.1"
    },
    {
     "day": 0,
     "module": 4,
-    "title": "Engleză de specialitate I",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "C",
-    "nr": "2",
-    "scope": "121"
+    "title": "Studiu",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "",
+    "nr": "",
+    "scope": "131 Gp.1"
    },
    {
     "day": 1,
     "module": 1,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 1,
-    "module": 2,
-    "title": "Sisteme de artilerie antiaeriană",
+    "title": "Antene și propagarea undelor electromagnetice",
     "group": "AN II Ra.Art.A.A. Gr.121",
     "kind": "C",
-    "nr": "4",
+    "nr": "1",
     "scope": "121"
    },
    {
     "day": 1,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "",
-    "nr": "",
-    "scope": "311/2 Gp.2"
-   },
-   {
-    "day": 1,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 2,
-    "module": 1,
-    "title": "Matematica aplicată",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "C",
-    "nr": "4",
-    "scope": "311"
-   },
-   {
-    "day": 2,
     "module": 2,
-    "title": "Elemente de artă militară",
+    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
     "group": "AN III Ra.Art.A.A./FA Gr.131",
     "kind": "C",
     "nr": "2",
     "scope": "131"
    },
    {
-    "day": 2,
+    "day": 1,
     "module": 3,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 2,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 3,
-    "module": 1,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 3,
-    "module": 2,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 3,
-    "module": 3,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 3,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN I Ra.Art.A.A. Gr.111",
-    "kind": "",
-    "nr": "",
-    "scope": "111"
-   },
-   {
-    "day": 4,
-    "module": 5,
-    "title": "Managementul resurselor informaţionale",
-    "group": "Master MSLFA an II",
-    "kind": "C",
-    "nr": "4",
-    "time": "15:30-17:00",
-    "scope": "MSLFA an II"
-   },
-   {
-    "day": 4,
-    "module": 6,
-    "title": "Managementul resurselor informaţionale",
-    "group": "Master MSLFA an II",
-    "kind": "L",
-    "nr": "1",
-    "time": "17:10-18:40",
-    "scope": "MSLFA an II"
-   },
-   {
-    "day": 5,
-    "module": 1,
-    "title": "Managementul resurselor informaţionale",
-    "group": "Master MSLFA an II",
+    "title": "Matematica aplicată",
+    "group": "AN I REFA Gr.311/2",
     "kind": "C",
     "nr": "5",
-    "time": "08:00-09:30",
-    "scope": "MSLFA an II"
+    "scope": "311"
    },
    {
-    "day": 5,
-    "module": 2,
-    "title": "Managementul resurselor informaţionale",
-    "group": "Master MSLFA an II",
+    "day": 1,
+    "module": 4,
+    "title": "Matematica aplicată",
+    "group": "AN I REFA Gr.311/2",
     "kind": "C",
     "nr": "6",
-    "time": "09:40-11:10",
-    "scope": "MSLFA an II"
+    "scope": "311"
    },
    {
-    "day": 5,
+    "day": 2,
+    "module": 1,
+    "title": "Studiu",
+    "group": "211/1 Gp.2 + 211/2",
+    "kind": "",
+    "nr": "",
+    "scope": "211/1 Gp.2+211/2"
+   },
+   {
+    "day": 2,
+    "module": 1,
+    "title": "Studiu",
+    "group": "AN I CTA Gr.411",
+    "kind": "",
+    "nr": "",
+    "scope": "411"
+   },
+   {
+    "day": 2,
+    "module": 1,
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111"
+   },
+   {
+    "day": 2,
+    "module": 2,
+    "title": "Studiu",
+    "group": "AN I Av.Nav./avioane Gr.211/1",
+    "kind": "",
+    "nr": "",
+    "scope": "211/1 Gp.1"
+   },
+   {
+    "day": 2,
+    "module": 2,
+    "title": "Studiu",
+    "group": "AN I Info. Mil.UAV Gr.611",
+    "kind": "",
+    "nr": "",
+    "scope": "611"
+   },
+   {
+    "day": 3,
+    "module": 1,
+    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "C",
+    "nr": "2",
+    "scope": "131"
+   },
+   {
+    "day": 3,
+    "module": 2,
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111 Gp.1"
+   },
+   {
+    "day": 3,
     "module": 3,
-    "title": "Managementul resurselor informaţionale",
-    "group": "Master MSLFA an II",
+    "title": "Teoria tragerilor antiaeriene (art)",
+    "group": "AN II Ra.Art.A.A. Gr.121",
+    "kind": "S",
+    "nr": "1",
+    "scope": "121"
+   },
+   {
+    "day": 3,
+    "module": 4,
+    "title": "Studiu",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "",
+    "nr": "",
+    "scope": "311/2"
+   },
+   {
+    "day": 3,
+    "module": 4,
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111 Gp.1"
+   },
+   {
+    "day": 4,
+    "module": 1,
+    "title": "Psihologia liderului",
+    "group": "AN I Ra.Art.A.A. Gr.111",
     "kind": "S",
     "nr": "2",
-    "time": "11:20-12:50",
-    "scope": "MSLFA an II"
+    "scope": "111 Gp.1"
    },
    {
-    "day": 5,
+    "day": 4,
+    "module": 2,
+    "title": "Studiu",
+    "group": "AN I Ra.Art.A.A. Gr.111",
+    "kind": "",
+    "nr": "",
+    "scope": "111"
+   },
+   {
+    "day": 4,
     "module": 4,
-    "title": "Managementul resurselor informaţionale",
-    "group": "Master MSLFA an II",
-    "kind": "C",
-    "nr": "7",
-    "time": "13:00-14:30",
-    "scope": "MSLFA an II"
+    "title": "Studiu",
+    "group": "321/1 Gp.2 + 321/2",
+    "kind": "",
+    "nr": "",
+    "scope": "321/1 Gp.2+321/2"
    }
   ],
   "E-73": [
    {
+    "day": 0,
+    "module": 5,
+    "title": "Matematica aplicată",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "S",
+    "nr": "5",
+    "scope": "311/2"
+   },
+   {
+    "day": 1,
+    "module": 1,
+    "title": "Limba engleză",
+    "group": "AN II UAV/UAS Gr.621",
+    "kind": "S",
+    "nr": "1",
+    "scope": "621 Gp.3"
+   },
+   {
+    "day": 1,
+    "module": 2,
+    "title": "Limba engleză",
+    "group": "AN II CTA Gr.421/1",
+    "kind": "S",
+    "nr": "1",
+    "scope": "421/1 Gp.1"
+   },
+   {
+    "day": 1,
+    "module": 3,
+    "title": "Limba engleză",
+    "group": "421/1 Gp.2 + 421/2",
+    "kind": "S",
+    "nr": "1",
+    "scope": "421/1 Gp.2+421/2"
+   },
+   {
+    "day": 2,
+    "module": 2,
+    "title": "Matematica aplicată",
+    "group": "AN I REFA Gr.311/2",
+    "kind": "S",
+    "nr": "6",
+    "scope": "311/2"
+   },
+   {
+    "day": 3,
+    "module": 1,
+    "title": "Matematica aplicată",
+    "group": "AN I Radiolocaţie Gr.311/1",
+    "kind": "S",
+    "nr": "5",
+    "scope": "311/1"
+   },
+   {
+    "day": 3,
+    "module": 3,
+    "title": "Limba engleză",
+    "group": "AN II UAV/UAS Gr.621",
+    "kind": "L",
+    "nr": "1",
+    "scope": "621 Gp.4"
+   },
+   {
+    "day": 3,
+    "module": 4,
+    "title": "Matematica aplicată",
+    "group": "AN I Radiolocaţie Gr.311/1",
+    "kind": "S",
+    "nr": "6",
+    "scope": "311/1"
+   },
+   {
+    "day": 4,
+    "module": 1,
+    "title": "Studiu",
+    "group": "AN II Rz. Electr. Gr.321/2",
+    "kind": "",
+    "nr": "",
+    "scope": "321/2"
+   },
+   {
+    "day": 4,
+    "module": 2,
+    "title": "Studiu",
+    "group": "AN II Rz. Electr. Gr.321/2",
+    "kind": "",
+    "nr": "",
+    "scope": "321/2"
+   },
+   {
+    "day": 4,
+    "module": 3,
+    "title": "Engleză de specialitate I",
+    "group": "AN II Rz. Electr. Gr.321/2",
+    "kind": "L",
+    "nr": "1",
+    "scope": "321/2"
+   },
+   {
+    "day": 4,
+    "module": 4,
+    "title": "Engleză de specialitate I",
+    "group": "AN II Radiolocaţie Gr.321/1",
+    "kind": "L",
+    "nr": "1",
+    "scope": "321/1 Gp.1"
+   }
+  ],
+  "E-74": [
+   {
+    "day": 0,
+    "module": 3,
+    "title": "Studiu",
+    "group": "AN III Rz.El. COM Gr.331/3",
+    "kind": "",
+    "nr": "",
+    "scope": "331/3"
+   },
+   {
     "day": 1,
     "module": 1,
     "title": "Studiu",
-    "group": "331/2 + 331/3",
+    "group": "AN I Ra.Art.A.A. Gr.111",
     "kind": "",
     "nr": "",
-    "scope": "331/2+331/3"
+    "scope": "111 Gp.1"
    },
    {
     "day": 1,
+    "module": 3,
+    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "S",
+    "nr": "2",
+    "scope": "131 Gp.2"
+   },
+   {
+    "day": 1,
+    "module": 4,
+    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "S",
+    "nr": "2",
+    "scope": "131 Gp.1"
+   },
+   {
+    "day": 2,
+    "module": 1,
+    "title": "Elemente de drept. Drept internațional umanitar",
+    "group": "AN IV Av.Nav./avioane Gr.241/1",
+    "kind": "L",
+    "nr": "1",
+    "scope": "241/1 Gp.1"
+   },
+   {
+    "day": 2,
+    "module": 3,
+    "title": "Elemente de drept. Drept internațional umanitar",
+    "group": "AN IV Av.Nav./avioane Gr.241/1",
+    "kind": "L",
+    "nr": "1",
+    "scope": "241/1 Gp.2"
+   },
+   {
+    "day": 2,
+    "module": 4,
+    "title": "Elemente de drept. Drept internațional umanitar",
+    "group": "AN IV Av.Nav./elic. Gr.241/2",
+    "kind": "L",
+    "nr": "1",
+    "scope": "241/2"
+   },
+   {
+    "day": 3,
+    "module": 1,
+    "title": "Teoria comunicării și relații publice",
+    "group": "AN II Rz. Electr. Gr.321/2",
+    "kind": "S",
+    "nr": "1",
+    "scope": "321/2"
+   },
+   {
+    "day": 3,
+    "module": 2,
+    "title": "Engleză de specialitate I",
+    "group": "AN II Ra.Art.A.A. Gr.121",
+    "kind": "L",
+    "nr": "4",
+    "scope": "121 Gp.2"
+   },
+   {
+    "day": 4,
+    "module": 1,
+    "title": "Studiu",
+    "group": "AN II Radiolocaţie Gr.321/1",
+    "kind": "",
+    "nr": "",
+    "scope": "321/1 Gp.1"
+   },
+   {
+    "day": 4,
     "module": 2,
     "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "group": "AN II Radiolocaţie Gr.321/1",
     "kind": "",
     "nr": "",
-    "scope": "131 Gp.3"
+    "scope": "321/1"
    },
    {
-    "day": 1,
-    "module": 2,
+    "day": 4,
+    "module": 3,
+    "title": "Studiu",
+    "group": "AN II Radiolocaţie Gr.321/1",
+    "kind": "",
+    "nr": "",
+    "scope": "321/1"
+   }
+  ],
+  "E-77": [
+   {
+    "day": 0,
+    "module": 3,
     "title": "Studiu",
     "group": "AN III Radiolocaţie Gr.331/1",
     "kind": "",
@@ -1248,7 +1246,16 @@
    },
    {
     "day": 1,
-    "module": 3,
+    "module": 1,
+    "title": "Studiu",
+    "group": "AN II UAV/UAS Gr.621",
+    "kind": "",
+    "nr": "",
+    "scope": "621 Gp.4"
+   },
+   {
+    "day": 1,
+    "module": 2,
     "title": "Studiu",
     "group": "AN II Rz. Electr. Gr.321/2",
     "kind": "",
@@ -1257,108 +1264,43 @@
    },
    {
     "day": 1,
-    "module": 4,
-    "title": "Matematica aplicată",
-    "group": "AN I Radiolocaţie Gr.311/1",
-    "kind": "S",
-    "nr": "3",
-    "scope": "311/1"
-   },
-   {
-    "day": 2,
-    "module": 2,
-    "title": "Matematica aplicată",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "S",
-    "nr": "3",
-    "scope": "311/2"
+    "module": 3,
+    "title": "Studiu",
+    "group": "AN II Radiolocaţie Gr.321/1",
+    "kind": "",
+    "nr": "",
+    "scope": "321/1"
    },
    {
     "day": 2,
     "module": 3,
-    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "S",
-    "nr": "1",
-    "scope": "131 Gp.2"
-   },
-   {
-    "day": 3,
-    "module": 1,
-    "title": "Matematica aplicată",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "S",
-    "nr": "4",
-    "scope": "311/2"
-   },
-   {
-    "day": 3,
-    "module": 2,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "",
-    "nr": "",
-    "scope": "131 Gp.1"
-   },
-   {
-    "day": 3,
-    "module": 3,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "",
-    "nr": "",
-    "scope": "131 Gp.3"
-   },
-   {
-    "day": 3,
-    "module": 4,
-    "title": "Matematica aplicată",
-    "group": "AN I Radiolocaţie Gr.311/1",
-    "kind": "S",
-    "nr": "4",
-    "scope": "311/1"
-   }
-  ],
-  "E-74": [
-   {
-    "day": 1,
-    "module": 2,
-    "title": "Studiu",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "",
-    "nr": "",
-    "scope": "131 Gp.1"
-   },
-   {
-    "day": 1,
-    "module": 4,
-    "title": "Engleză de specialitate I",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "L",
-    "nr": "2",
-    "scope": "121 Gp.2"
-   },
-   {
-    "day": 2,
-    "module": 2,
     "title": "Limba engleză",
     "group": "AN I Radiolocaţie Gr.311/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "4",
     "scope": "311/1 Gp.1"
    },
    {
     "day": 2,
-    "module": 3,
+    "module": 4,
     "title": "Limba engleză",
     "group": "AN I Radiolocaţie Gr.311/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "4",
     "scope": "311/1 Gp.2"
    },
    {
-    "day": 2,
-    "module": 4,
+    "day": 3,
+    "module": 1,
+    "title": "Engleză de specialitate I",
+    "group": "AN II Ra.Art.A.A. Gr.121",
+    "kind": "L",
+    "nr": "4",
+    "scope": "121 Gp.1"
+   },
+   {
+    "day": 3,
+    "module": 2,
     "title": "Limba engleză",
     "group": "AN I REFA Gr.311/2",
     "kind": "L",
@@ -1367,178 +1309,59 @@
    },
    {
     "day": 3,
-    "module": 2,
-    "title": "Limba engleză",
-    "group": "AN I Radiolocaţie Gr.311/1",
-    "kind": "L",
-    "nr": "3",
-    "scope": "311/1 Gp.1"
-   },
-   {
-    "day": 3,
     "module": 3,
-    "title": "Limba engleză",
-    "group": "AN I Radiolocaţie Gr.311/1",
-    "kind": "L",
-    "nr": "3",
-    "scope": "311/1 Gp.2"
+    "title": "Studiu",
+    "group": "AN II UAV/UAS Gr.621",
+    "kind": "",
+    "nr": "",
+    "scope": "621 Gp.3"
    },
    {
     "day": 3,
     "module": 4,
     "title": "Limba engleză",
-    "group": "AN I REFA Gr.311/2",
+    "group": "AN II Meteorologie Gr.521",
     "kind": "L",
-    "nr": "3",
-    "scope": "311/2 Gp.2"
+    "nr": "1",
+    "scope": "521"
    },
    {
     "day": 4,
-    "module": 2,
-    "title": "Limba engleză",
-    "group": "AN I REFA Gr.311/2",
-    "kind": "L",
-    "nr": "4",
-    "scope": "311/2 Gp.2"
-   },
-   {
-    "day": 4,
-    "module": 3,
-    "title": "Limba engleză",
+    "module": 1,
+    "title": "Engleză de specialitate I",
     "group": "AN II Radiolocaţie Gr.321/1",
-    "kind": "C",
-    "nr": "1",
-    "scope": "321"
-   }
-  ],
-  "E-77": [
-   {
-    "day": 0,
-    "module": 1,
-    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "C",
-    "nr": "1",
-    "scope": "131"
-   },
-   {
-    "day": 0,
-    "module": 3,
-    "title": "Pregătirea economiei naționale și a teritoriului pentru apărare",
-    "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
-    "kind": "C",
-    "nr": "1",
-    "scope": "331"
-   },
-   {
-    "day": 1,
-    "module": 1,
-    "title": "Engleză de specialitate I",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "L",
-    "nr": "2",
-    "scope": "121 Gp.1"
-   },
-   {
-    "day": 1,
-    "module": 2,
-    "title": "Studiu",
-    "group": "AN III Rz.El. COM Gr.331/3",
-    "kind": "",
-    "nr": "",
-    "scope": "331/3"
-   },
-   {
-    "day": 1,
-    "module": 3,
-    "title": "Studiu",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "",
-    "nr": "",
-    "scope": "121"
-   },
-   {
-    "day": 1,
-    "module": 4,
-    "title": "Studiu",
-    "group": "AN III Radiolocaţie Gr.331/1",
-    "kind": "",
-    "nr": "",
-    "scope": "331/1"
-   },
-   {
-    "day": 3,
-    "module": 1,
-    "title": "Limba engleză",
-    "group": "AN III UAV/UAS Gr.631",
     "kind": "L",
     "nr": "1",
-    "scope": "631 Gp.3"
-   },
-   {
-    "day": 3,
-    "module": 2,
-    "title": "Limba engleză",
-    "group": "AN III UAV/UAS Gr.631",
-    "kind": "L",
-    "nr": "2",
-    "scope": "631 Gp.4"
-   },
-   {
-    "day": 4,
-    "module": 1,
-    "title": "Engleză de specialitate I",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "L",
-    "nr": "3",
-    "scope": "121 Gp.2"
-   },
-   {
-    "day": 4,
-    "module": 2,
-    "title": "Engleză de specialitate I",
-    "group": "AN II Ra.Art.A.A. Gr.121",
-    "kind": "L",
-    "nr": "3",
-    "scope": "121 Gp.1"
+    "scope": "321/1 Gp.2"
    }
   ],
   "E-78": [
    {
     "day": 0,
-    "module": 1,
-    "title": "Limba engleză V",
-    "group": "AN III Radiolocaţie Gr.331/1",
+    "module": 3,
+    "title": "EngTS III",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
     "kind": "L",
-    "nr": "1",
-    "scope": "331/1"
+    "nr": "3",
+    "scope": "131 Gp.2"
    },
    {
     "day": 0,
     "module": 4,
-    "title": "Limba engleză V",
+    "title": "EngTS III",
     "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "L",
-    "nr": "1",
+    "kind": "",
+    "nr": "",
     "scope": "131 Gp.3"
-   },
-   {
-    "day": 1,
-    "module": 1,
-    "title": "Limba engleză V",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "L",
-    "nr": "1",
-    "scope": "131 Gp.2"
    },
    {
     "day": 1,
     "module": 2,
     "title": "Limba engleză V",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "group": "AN III Radiolocaţie Gr.331/1",
     "kind": "L",
-    "nr": "2",
-    "scope": "131 Gp.2"
+    "nr": "3",
+    "scope": "331/1"
    },
    {
     "day": 1,
@@ -1546,26 +1369,26 @@
     "title": "Limba engleză V",
     "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
     "kind": "L",
-    "nr": "1",
+    "nr": "3",
     "scope": "331/2"
    },
    {
     "day": 1,
     "module": 4,
     "title": "Limba engleză V",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "group": "AN III Rz.El. COM Gr.331/3",
     "kind": "L",
-    "nr": "1",
-    "scope": "131 Gp.1"
+    "nr": "3",
+    "scope": "331/3"
    },
    {
     "day": 2,
     "module": 1,
-    "title": "Limba engleză V",
-    "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
+    "title": "EngTS III",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
     "kind": "L",
-    "nr": "2",
-    "scope": "331/2"
+    "nr": "3",
+    "scope": "131 Gp.1"
    },
    {
     "day": 2,
@@ -1573,26 +1396,17 @@
     "title": "Limba engleză V",
     "group": "AN III Radiolocaţie Gr.331/1",
     "kind": "L",
-    "nr": "2",
+    "nr": "4",
     "scope": "331/1"
    },
    {
     "day": 2,
     "module": 3,
     "title": "Limba engleză V",
-    "group": "AN III Rz.El. COM Gr.331/3",
+    "group": "AN III Rz. El. Av.Ap.A.A. Gr.331/2",
     "kind": "L",
-    "nr": "1",
-    "scope": "331/3"
-   },
-   {
-    "day": 2,
-    "module": 4,
-    "title": "Limba engleză V",
-    "group": "AN III Ra.Art.A.A./FA Gr.131",
-    "kind": "L",
-    "nr": "2",
-    "scope": "131 Gp.1"
+    "nr": "4",
+    "scope": "331/2"
    },
    {
     "day": 3,
@@ -1600,20 +1414,38 @@
     "title": "Limba engleză V",
     "group": "AN III Rz.El. COM Gr.331/3",
     "kind": "L",
-    "nr": "2",
+    "nr": "4",
     "scope": "331/3"
    },
    {
     "day": 3,
     "module": 2,
-    "title": "Limba engleză V",
+    "title": "EngTS III",
     "group": "AN III Ra.Art.A.A./FA Gr.131",
     "kind": "L",
-    "nr": "2",
+    "nr": "4",
+    "scope": "131 Gp.1"
+   },
+   {
+    "day": 3,
+    "module": 3,
+    "title": "EngTS III",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "L",
+    "nr": "4",
+    "scope": "131 Gp.2"
+   },
+   {
+    "day": 3,
+    "module": 4,
+    "title": "EngTS III",
+    "group": "AN III Ra.Art.A.A./FA Gr.131",
+    "kind": "L",
+    "nr": "4",
     "scope": "131 Gp.3"
    }
   ],
   "E-79": []
  },
- "generated": "2026-10-09T19:37+03:00"
+ "generated": "2026-10-09T20:06+03:00"
 }
