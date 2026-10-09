@@ -25,32 +25,34 @@
   /* Pagina e proiectată pe 1920×1080 și scalată pe ecran. */
   #stage { width: 1920px; height: 1080px; transform-origin: 0 0; position: absolute; top: 0; left: 0;
     display: flex; flex-direction: column; }
-  header { background: var(--panel); border-bottom: 2px solid var(--cyan); text-align: center; padding: 14px 0 10px; }
-  header h1 { color: var(--gold); font-size: 34px; letter-spacing: .5px; }
-  header .week { color: var(--cyan); font-size: 22px; font-weight: 600; margin-top: 4px; }
-  .room-title { text-align: center; color: var(--gold); font-size: 32px; font-weight: 700; padding: 10px 0 8px; }
-  .room-title .count { color: var(--dim); font-size: 18px; font-weight: 400; margin-left: 14px; }
+  header { background: var(--panel); border-bottom: 2px solid var(--cyan); text-align: center; padding: 10px 0 8px; }
+  header h1 { color: var(--gold); font-size: 36px; letter-spacing: .5px; }
+  header .week { color: var(--cyan); font-size: 28px; font-weight: 600; margin-top: 2px; }
+  .room-title { text-align: center; color: var(--gold); font-size: 50px; font-weight: 700; padding: 4px 0 4px; line-height: 1.1; }
+  .room-title .count { color: var(--muted); font-size: 26px; font-weight: 400; margin-left: 16px; }
   table { border-collapse: collapse; margin: 0 30px 0 0; table-layout: fixed; width: 1890px; flex: 1; }
   th, td { border: 1px solid var(--line); }
-  thead th { background: var(--panel); height: 56px; font-weight: 600; }
-  thead th .m { color: var(--cyan); font-size: 13px; display: block; }
-  thead th .h { color: #cbd5e1; font-size: 15px; display: block; margin-top: 3px; }
-  thead th.corner { background: var(--bg); border: none; width: 120px; }
-  tbody th { width: 120px; background: var(--cell); font-size: 20px; }
-  tbody td { background: var(--cell); vertical-align: top; padding: 6px 8px; position: relative; }
-  tbody td.empty::after { content: "—"; color: #475569; position: absolute; inset: 0;
+  thead th { background: var(--panel); height: 70px; font-weight: 600; }
+  thead th .m { color: var(--cyan); font-size: 19px; display: block; }
+  thead th .h { color: #e2e8f0; font-size: 24px; display: block; margin-top: 2px; }
+  thead th.corner { background: var(--bg); border: none; width: 150px; }
+  tbody th { width: 150px; background: var(--cell); font-size: 28px; }
+  tbody td { background: var(--cell); vertical-align: top; padding: 6px 10px; position: relative; }
+  /* conținutul celulei: mărimea de bază (24px) scade automat doar unde textul nu încape */
+  tbody td .c { font-size: 24px; overflow: hidden; }
+  tbody td.empty::after { content: "—"; color: #475569; font-size: 24px; position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center; }
   tbody td.busy { background: var(--busy); }
   tbody tr.today th { color: var(--gold); }
   tbody td.now { outline: 4px solid var(--gold); outline-offset: -4px; }
   tbody td.busy.now { background: var(--busy-now); }
-  .act + .act { border-top: 1px dashed rgba(148,163,184,.35); margin-top: 5px; padding-top: 5px; }
-  .act .t { font-size: 15px; color: var(--text); line-height: 1.2; }
-  .act .k { color: var(--gold); font-size: 13px; margin-left: 6px; }
-  .act .p { font-size: 12px; color: #cbd5e1; margin-top: 2px; }
-  .act .g { font-size: 12px; color: var(--muted); margin-top: 2px; }
-  footer { display: flex; justify-content: space-between; color: var(--dim); font-size: 13px; padding: 6px 30px 8px; }
-  .dots span { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #334155; margin-left: 5px; }
+  .act + .act { border-top: 1px dashed rgba(148,163,184,.45); margin-top: 6px; padding-top: 6px; }
+  .act .t { font-size: 1em; font-weight: 600; color: var(--text); line-height: 1.15; }
+  .act .k { color: var(--gold); font-size: .85em; margin-left: 8px; }
+  .act .p { font-size: .8em; color: #e2e8f0; margin-top: 3px; }
+  .act .g { font-size: .8em; color: #cbd5e1; margin-top: 3px; line-height: 1.15; }
+  footer { display: flex; justify-content: space-between; color: var(--muted); font-size: 18px; padding: 6px 30px 8px; }
+  .dots span { display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: #334155; margin-left: 7px; }
   .dots span.on { background: var(--gold); }
   #msg { position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
     color: var(--muted); font-size: 28px; }
@@ -69,6 +71,8 @@
   const qs = new URLSearchParams(location.search);
   const SCREEN = qs.get("ecran") || "1";
   const SECONDS = Math.max(5, parseInt(qs.get("t") || "14", 10));
+  // sălile fără nicio activitate în săptămână stau mai puțin pe ecran (?tg=4 secunde)
+  const EMPTY_SECONDS = Math.max(2, parseInt(qs.get("tg") || "4", 10));
   const REFRESH_MIN = 10;
   let data = null, idx = 0, timer = null;
 
@@ -104,7 +108,8 @@
     const acts = data.rooms[room] || [];
     const pos = nowPos();
     document.getElementById("week").textContent = data.week.label;
-    document.getElementById("room").innerHTML = `Sala ${esc(room)}<span class="count">${idx % rooms.length + 1} / ${rooms.length}</span>`;
+    const free = acts.length === 0 ? `<span class="count">· liberă toată săptămâna</span>` : "";
+    document.getElementById("room").innerHTML = `Sala ${esc(room)}${free}<span class="count">${idx % rooms.length + 1} / ${rooms.length}</span>`;
     const thead = document.querySelector("#grid thead");
     thead.innerHTML = "<tr><th class='corner'></th>" + data.slots.map(s =>
       `<th><span class="m">${esc(s.name)}</span><span class="h">${esc(s.start)}-${esc(s.end)}</span></th>`).join("") + "</tr>";
@@ -118,14 +123,46 @@
         const inner = here.map(a => `<div class="act"><div class="t">${esc(a.title)}${a.kind ? `<span class="k">${esc(a.kind)}${esc(a.nr)}</span>` : ""}</div>` +
           (a.teacher ? `<div class="p">${esc(a.teacher)}${a.time ? " · " + esc(a.time) : ""}</div>` : (a.time ? `<div class="p">${esc(a.time)}</div>` : "")) +
           `<div class="g">${esc(a.group)}</div></div>`).join("");
-        return `<td class="${cls}">${inner}</td>`;
+        return `<td class="${cls}">${inner ? `<div class="c">${inner}</div>` : ""}</td>`;
       }).join("");
       return `<tr class="${d === pos.day ? "today" : ""}"><th>${esc(dname)}</th>${cells}</tr>`;
     }).join("");
+    fitCells();
+    requestAnimationFrame(fitCells);           // a doua trecere, după ce s-a așezat titlul / fonturile
+    if (document.fonts) document.fonts.ready.then(fitCells);
     document.getElementById("dots").innerHTML = rooms.map((_, i) => `<span class="${i === idx % rooms.length ? "on" : ""}"></span>`).join("");
     const g = new Date(data.generated);
     document.getElementById("upd").textContent = `Actualizat: ${g.toLocaleDateString("ro-RO")} ${g.toLocaleTimeString("ro-RO", { hour: "2-digit", minute: "2-digit" })}`;
     document.getElementById("msg").style.display = "none";
+  }
+
+  function fitCells() {
+    // rânduri de înălțime egală, care umplu ecranul; în celulele prea pline textul se micșorează
+    // pas cu pas (minimum 15px), restul rămân la mărimea mare
+    const table = document.getElementById("grid");
+    const rows = [...table.tBodies[0].rows];
+    if (!rows.length) return;
+    const avail = table.parentElement.clientHeight - table.offsetTop - document.querySelector("footer").offsetHeight
+                  - table.tHead.offsetHeight;
+    const rowH = Math.floor(avail / rows.length);
+    let h = rowH;
+    const stage = document.getElementById("stage");
+    const footer = document.querySelector("footer");
+    const apply = () => {
+      rows.forEach(r => { r.style.height = h + "px"; });
+      table.querySelectorAll("td .c").forEach(c => {
+        c.style.maxHeight = (h - 16) + "px";
+        let f = 24; c.style.fontSize = f + "px";
+        while (c.scrollHeight > c.clientHeight + 1 && f > 15) { f -= 1; c.style.fontSize = f + "px"; }
+      });
+    };
+    // corecție: dacă subsolul iese din ecran (borduri, rotunjiri), micșorăm rândurile cu surplusul
+    for (let i = 0; i < 4; i++) {
+      apply();
+      const over = footer.offsetTop + footer.offsetHeight - stage.clientHeight;
+      if (over <= 0) break;
+      h -= Math.ceil(over / rows.length);
+    }
   }
 
   function showMsg(t) { const m = document.getElementById("msg"); m.textContent = t; m.style.display = "flex"; }
@@ -141,8 +178,21 @@
     }
   }
 
+  function currentIsEmpty() {
+    if (!data || qs.get("sala")) return false;
+    const rooms = data.screens[SCREEN] || [];
+    if (!rooms.length) return false;
+    return (data.rooms[rooms[idx % rooms.length]] || []).length === 0;
+  }
+
+  function next() {
+    // durata se alege după sala afișată acum: goală -> scurt, cu activități -> normal
+    timer = setTimeout(() => { if (data) { idx++; render(); } next(); },
+                       (currentIsEmpty() ? EMPTY_SECONDS : SECONDS) * 1000);
+  }
+
   load().then(() => {
-    timer = setInterval(() => { if (data) { idx++; render(); } }, SECONDS * 1000);
+    next();
     setInterval(load, REFRESH_MIN * 60 * 1000);
   });
 })();
