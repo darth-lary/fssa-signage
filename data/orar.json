@@ -10,7 +10,8 @@
   "Marți",
   "Miercuri",
   "Joi",
-  "Vineri"
+  "Vineri",
+  "Sâmbătă"
  ],
  "slots": [
   {
@@ -1012,6 +1013,86 @@
     "kind": "",
     "nr": "",
     "scope": "321/1 Gp.2+321/2"
+   },
+   {
+    "day": 4,
+    "module": 5,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master MSLFA an I",
+    "kind": "P",
+    "nr": "1",
+    "time": "15:30-17:00",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 4,
+    "module": 6,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master SSA an I",
+    "kind": "S",
+    "nr": "1",
+    "time": "17:10-18:40",
+    "scope": "SSA an I"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master MSLFA an I",
+    "kind": "C",
+    "nr": "5",
+    "time": "08:00-09:30",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master SSA an I",
+    "kind": "C",
+    "nr": "5",
+    "time": "08:00-09:30",
+    "scope": "SSA an I"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master MSLFA an I",
+    "kind": "C",
+    "nr": "6",
+    "time": "09:40-11:10",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master SSA an I",
+    "kind": "C",
+    "nr": "6",
+    "time": "09:40-11:10",
+    "scope": "SSA an I"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master MSLFA an I",
+    "kind": "P",
+    "nr": "2",
+    "time": "11:20-12:50",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Leadership în Forțele Aeriene",
+    "group": "Master SSA an I",
+    "kind": "S",
+    "nr": "2",
+    "time": "13:00-14:30",
+    "scope": "SSA an I"
    }
   ],
   "E-73": [
@@ -1232,6 +1313,86 @@
     "kind": "",
     "nr": "",
     "scope": "321/1"
+   },
+   {
+    "day": 4,
+    "module": 5,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master MSLFA an II",
+    "kind": "S",
+    "nr": "4",
+    "time": "15:30-17:00",
+    "scope": "MSLFA an II"
+   },
+   {
+    "day": 4,
+    "module": 6,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master SdS an II",
+    "kind": "P",
+    "nr": "4",
+    "time": "17:10-18:40",
+    "scope": "SdS an II"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master MSLFA an II",
+    "kind": "C",
+    "nr": "9",
+    "time": "08:00-09:30",
+    "scope": "MSLFA an II"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master SdS an II",
+    "kind": "C",
+    "nr": "9",
+    "time": "08:00-09:30",
+    "scope": "SdS an II"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master MSLFA an II",
+    "kind": "C",
+    "nr": "10",
+    "time": "09:40-11:10",
+    "scope": "MSLFA an II"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master SdS an II",
+    "kind": "C",
+    "nr": "10",
+    "time": "09:40-11:10",
+    "scope": "SdS an II"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master MSLFA an II",
+    "kind": "S",
+    "nr": "5",
+    "time": "11:20-12:50",
+    "scope": "MSLFA an II"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Influenţa mass-media asupra sistemului de securitate",
+    "group": "Master SdS an II",
+    "kind": "P",
+    "nr": "5",
+    "time": "13:00-14:30",
+    "scope": "SdS an II"
    }
   ],
   "E-77": [
@@ -1447,5 +1608,5 @@
   ],
   "E-79": []
  },
- "generated": "2026-10-09T20:06+03:00"
+ "generated": "2026-10-09T21:05+03:00"
 }
