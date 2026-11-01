@@ -10,7 +10,8 @@
   "Marți",
   "Miercuri",
   "Joi",
-  "Vineri"
+  "Vineri",
+  "Sâmbătă"
  ],
  "slots": [
   {
@@ -245,6 +246,66 @@
     "kind": "C",
     "nr": "5",
     "scope": "121"
+   },
+   {
+    "day": 4,
+    "module": 5,
+    "title": "Cooperare civil militar in FA S-5",
+    "group": "Master SSA an II",
+    "kind": "",
+    "nr": "",
+    "time": "15:30-17:00",
+    "scope": "SSA an II"
+   },
+   {
+    "day": 4,
+    "module": 6,
+    "title": "Cooperare civil militar in FA C-11",
+    "group": "Master SSA an II",
+    "kind": "",
+    "nr": "",
+    "time": "17:10-18:40",
+    "scope": "SSA an II"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Cooperare civil militar in FA C-12",
+    "group": "Master SSA an II",
+    "kind": "",
+    "nr": "",
+    "time": "08:00-09:30",
+    "scope": "SSA an II"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Cooperare civil militar in FA S-6",
+    "group": "Master SSA an II",
+    "kind": "",
+    "nr": "",
+    "time": "09:40-11:10",
+    "scope": "SSA an II"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Cooperare civil militar in FA C-13",
+    "group": "Master SSA an II",
+    "kind": "",
+    "nr": "",
+    "time": "11:20-12:50",
+    "scope": "SSA an II"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Cooperare civil militar in FA C-14",
+    "group": "Master SSA an II",
+    "kind": "",
+    "nr": "",
+    "time": "13:00-14:30",
+    "scope": "SSA an II"
    }
   ],
   "E-37": [
@@ -451,6 +512,66 @@
     "kind": "S",
     "nr": "2",
     "scope": "321/1"
+   },
+   {
+    "day": 4,
+    "module": 5,
+    "title": "Sisteme de supraveghere aeriană Găină",
+    "group": "Master MSLFA an I",
+    "kind": "",
+    "nr": "",
+    "time": "15:30-17:00",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 4,
+    "module": 6,
+    "title": "Sisteme de supraveghere aeriană",
+    "group": "Master MSLFA an I",
+    "kind": "C",
+    "nr": "7",
+    "time": "17:10-18:40",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Sisteme de supraveghere aeriană",
+    "group": "Master MSLFA an I",
+    "kind": "C",
+    "nr": "8",
+    "time": "08:00-09:30",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Sisteme de supraveghere aeriană Găină",
+    "group": "Master MSLFA an I",
+    "kind": "",
+    "nr": "",
+    "time": "09:40-11:10",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Sisteme de supraveghere aeriană",
+    "group": "Master MSLFA an I",
+    "kind": "C",
+    "nr": "9",
+    "time": "11:20-12:50",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Sisteme de supraveghere aeriană",
+    "group": "Master MSLFA an I",
+    "kind": "C",
+    "nr": "10",
+    "time": "13:00-14:30",
+    "scope": "MSLFA an I"
    }
   ],
   "E-44": [
@@ -671,6 +792,66 @@
     "kind": "C",
     "nr": "6",
     "scope": "321"
+   },
+   {
+    "day": 4,
+    "module": 5,
+    "title": "Metode de cercetare științifică în domeniul securității naționale C-4",
+    "group": "Master SdS an I",
+    "kind": "",
+    "nr": "",
+    "time": "15:30-17:00",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 4,
+    "module": 6,
+    "title": "Metode de cercetare științifică în domeniul securității naționale P-2",
+    "group": "Master SdS an I",
+    "kind": "",
+    "nr": "",
+    "time": "17:10-18:40",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Metode de cercetare științifică în domeniul securității naționale C-5",
+    "group": "Master SdS an I",
+    "kind": "",
+    "nr": "",
+    "time": "08:00-09:30",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Metode de cercetare științifică în domeniul securității naționale C-6",
+    "group": "Master SdS an I",
+    "kind": "",
+    "nr": "",
+    "time": "09:40-11:10",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Metode de cercetare științifică în domeniul securității naționale P-3",
+    "group": "Master SdS an I",
+    "kind": "",
+    "nr": "",
+    "time": "11:20-12:50",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Metode de cercetare științifică în domeniul securității naționale C-7",
+    "group": "Master SdS an I",
+    "kind": "",
+    "nr": "",
+    "time": "13:00-14:30",
+    "scope": "SdS an I"
    }
   ],
   "E-46": [
@@ -1630,5 +1811,5 @@
   ],
   "E-79": []
  },
- "generated": "2026-10-30T20:06+02:00"
+ "generated": "2026-11-01T16:05+02:00"
 }
