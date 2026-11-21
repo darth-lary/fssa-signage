@@ -10,7 +10,8 @@
   "Marți",
   "Miercuri",
   "Joi",
-  "Vineri"
+  "Vineri",
+  "Sâmbătă"
  ],
  "slots": [
   {
@@ -236,6 +237,76 @@
     "kind": "S",
     "nr": "2",
     "scope": "121"
+   },
+   {
+    "day": 4,
+    "module": 5,
+    "title": "Sisteme fixe şi mobile de comunicaţii",
+    "group": "Master MSLFA an I",
+    "kind": "L",
+    "nr": "1",
+    "time": "16:00-17:30",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 4,
+    "module": 6,
+    "title": "Sisteme fixe şi mobile de comunicaţii",
+    "group": "Master MSLFA an I",
+    "kind": "L",
+    "nr": "2",
+    "time": "17:40-19:10",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Sisteme fixe şi mobile de comunicaţii",
+    "group": "Master MSLFA an I",
+    "kind": "L",
+    "nr": "3",
+    "time": "08:00-09:30",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Sisteme fixe şi mobile de comunicaţii",
+    "group": "Master MSLFA an I",
+    "kind": "L",
+    "nr": "4",
+    "time": "09:40-11:10",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Sisteme fixe şi mobile de comunicaţii",
+    "group": "Master MSLFA an I",
+    "kind": "P",
+    "nr": "2",
+    "time": "11:20-12:50",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Sisteme fixe şi mobile de comunicaţii",
+    "group": "Master MSLFA an I",
+    "kind": "P",
+    "nr": "3",
+    "time": "13:00-14:30",
+    "scope": "MSLFA an I"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Sisteme fixe şi mobile de comunicaţii",
+    "group": "Master MSLFA an I",
+    "kind": "P",
+    "nr": "4",
+    "time": "14:40-16:10",
+    "scope": "MSLFA an I"
    }
   ],
   "E-37": [
@@ -626,6 +697,76 @@
     "kind": "C",
     "nr": "5",
     "scope": "131"
+   },
+   {
+    "day": 4,
+    "module": 5,
+    "title": "Intelligence și asigurarea securității",
+    "group": "Master SdS an I",
+    "kind": "C",
+    "nr": "12",
+    "time": "16:00-17:30",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 4,
+    "module": 6,
+    "title": "Intelligence și asigurarea securității",
+    "group": "Master SdS an I",
+    "kind": "S",
+    "nr": "5",
+    "time": "17:40-19:10",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Intelligence și asigurarea securității",
+    "group": "Master SdS an I",
+    "kind": "C",
+    "nr": "13",
+    "time": "08:00-09:30",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Intelligence și asigurarea securității",
+    "group": "Master SdS an I",
+    "kind": "C",
+    "nr": "14",
+    "time": "09:40-11:10",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Intelligence și asigurarea securității",
+    "group": "Master SdS an I",
+    "kind": "S",
+    "nr": "6",
+    "time": "11:20-12:50",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Intelligence și asigurarea securității",
+    "group": "Master SdS an I",
+    "kind": "S",
+    "nr": "7",
+    "time": "13:00-14:30",
+    "scope": "SdS an I"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Metode de cercetare științifică în domeniul securității naționale C10",
+    "group": "Master SdS an I",
+    "kind": "",
+    "nr": "",
+    "time": "14:40-16:10",
+    "scope": "SdS an I"
    }
   ],
   "E-46": [
@@ -1298,6 +1439,56 @@
     "kind": "L",
     "nr": "7",
     "scope": "321/1 Gp.2"
+   },
+   {
+    "day": 5,
+    "module": 1,
+    "title": "Sisteme decizionale suport pentru securitate",
+    "group": "Master SdS an II",
+    "kind": "P",
+    "nr": "1",
+    "time": "08:00-09:30",
+    "scope": "SdS an II"
+   },
+   {
+    "day": 5,
+    "module": 2,
+    "title": "Sisteme decizionale suport pentru securitate",
+    "group": "Master SdS an II",
+    "kind": "P",
+    "nr": "1",
+    "time": "09:40-11:10",
+    "scope": "SdS an II"
+   },
+   {
+    "day": 5,
+    "module": 3,
+    "title": "Sisteme decizionale suport pentru securitate",
+    "group": "Master SdS an II",
+    "kind": "P",
+    "nr": "2",
+    "time": "11:20-12:50",
+    "scope": "SdS an II"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Sisteme decizionale suport pentru securitate",
+    "group": "Master SdS an II",
+    "kind": "P",
+    "nr": "2",
+    "time": "13:00-14:30",
+    "scope": "SdS an II"
+   },
+   {
+    "day": 5,
+    "module": 4,
+    "title": "Sisteme decizionale suport pentru securitate",
+    "group": "Master SdS an II",
+    "kind": "P",
+    "nr": "3",
+    "time": "14:40-16:10",
+    "scope": "SdS an II"
    }
   ],
   "E-77": [
@@ -1613,5 +1804,5 @@
    }
   ]
  },
- "generated": "2026-11-20T16:00+02:00"
+ "generated": "2026-11-21T08:00+02:00"
 }
